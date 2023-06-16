@@ -1,0 +1,353 @@
+@media(max-width:1199px) {
+    .about-left {
+        margin: 50px 60px;
+    }
+
+    .who-we-right {
+        margin: 50px 50px;
+    }
+
+    .navbar-top li a {
+        font-size: 13px;
+    }
+
+    .navbar-top li {
+        margin: 0 12px;
+    }
+
+    .banner-sec h1 {
+        font-size: 38px;
+    }
+
+    .about-left h2 {
+        font-size: 30px;
+    }
+
+    .who-we-right h2 {
+        font-size: 30px;
+    }
+
+    .testimonial-sec h2 {
+        font-size: 30px;
+    }
+
+    .header-top-bar p {
+        display: none;
+    }
+
+}
+
+@media(min-width: 992px){
+    .navbar-top li:hover ul.dropdown-menu {
+    display: block;margin-top: 0; 
+   }
+}
+
+
+@media(max-width:991px) {
+    .navbar-toggler-icon {
+        background-image: url(../images/menu-icon.png);
+        height: 15px;
+        width: 18px;
+        background-repeat: no-repeat;
+    }
+
+    .navbar-toggler-icon:focus {
+        box-shadow: none;
+        border: none;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: none;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .navbar-toggler-icon:hover {
+        box-shadow: none;
+        border: none;
+        appearance: none;
+    }
+
+    div#navbarSupportedContent {
+        background-color: #d8e6e7;
+        position: absolute;
+        top: 62px;
+        z-index: 9999;
+        width: 100%;
+        left: 0;
+    }
+
+    .navbar-top .navbar-nav li a.active {
+       display: none;
+      }
+
+    .navbar-top li a {
+        color: #191919;
+        padding: 6px 10px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .navbar-top li a:hover {
+        color: #4c4c4b;
+    }
+
+    .navbar-top li {
+        margin: 0px;
+    }
+
+    .banner-sec h1 {
+        font-size: 30px;
+    }
+
+    .about-us-sec {
+        padding: 20px 0 0;
+    }
+
+    .about-left {
+        margin: 20px 26px;
+    }
+
+    .about-left h2 {
+        font-size: 25px;
+    }
+
+    .about-left p {
+        font-size: 14px;
+    }
+
+    .testimonial-sec {
+        padding: 15px 0;
+    }
+
+    .services-we-offer {
+        padding: 30px 0;
+    }
+
+    .services-we-offer h2 {
+        font-size: 25px;
+    }
+
+    .testimonial-sec h2 {
+        font-size: 25px;
+    }
+
+    ul.contact-info li a {
+        font-size: 13px;
+    }
+
+    .service-slider-inner {
+        background: transparent;
+    }
+
+    .service-slider-inner .slider-text-sec {
+        background: #f8f9fa;
+    }
+
+}
+
+
+
+@media(max-width:767px) {
+    .banner-sec h1 {
+        margin: 10px 0 20px;
+    }
+
+    .about-left {
+        margin: 30px 50px;
+        max-width: unset;
+    }
+
+    .about-left h2 {
+        font-size: 20px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .about-left p {
+        font-size: 14px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .who-we-right {
+        margin: 30px 50px;
+        max-width: unset;
+    }
+
+    .who-we-right h2 {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .who-we-right p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .services-we-offer h2 {
+        font-size: 22px;
+    }
+
+    .service-slider-inner {
+        display: block;
+        flex-wrap: nowrap;
+        align-items: center;
+        background: transparent;
+    }
+
+    .service-slider-inner .slider-img {
+        width: 85%;
+        margin: auto;
+    }
+
+    .service-slider-inner .slider-text-sec {
+        width: 85%;
+        margin: auto;
+        background: #f8f9fa;
+        padding: 30px 35px;
+    }
+
+     .banner-sec img{
+        height: 380px;
+    } 
+
+    .testimonial-sec h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .testimonial-sec .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+        font-size: 25px;
+    }
+
+    .testimonial-sec .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+        font-size: 25px;
+    }
+
+    .testimonial-inner .title {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .testimonial-inner .post {
+        font-size: 12px;
+    }
+
+    .service-slider-inner .slider-text-sec h3 {
+        font-size: 22px;
+        margin: 0 0 15px;
+    }
+
+    .service-slider-inner .slider-text-sec p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    ul.footer-nav {
+        padding-bottom: 20px;
+    }
+
+    ul.header-top-inner li a i.fa-facebook {
+        display: none;
+    }
+
+    ul.header-top-inner li a i.fa-instagram {
+        display: none;
+    }
+
+    ul.header-top-inner li a i.fa-linkedin {
+        display: none;
+    }
+
+    .copyright {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .navbar .navbar-text {
+        font-size: 25px;
+      }
+
+
+}
+
+@media(max-width:575px) {
+    .navbar .navbar-brand img {
+        max-height: 36px;
+    }
+
+    .banner-sec h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+     .banner-sec img{
+        height: 380px;
+    } 
+
+    .banner-sec .banner-sec-right img{display: none;}
+
+
+    .banner-sec .banner-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .banner-sec p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner-sec .footer-top h3 {
+        font-size: 17px;
+        margin: 0 0 14px;
+    }
+
+    ul.footer-nav {
+        padding-bottom: 15px;
+    }
+
+    ul.footer-nav li a {
+        font-size: 14px;
+    }
+
+    .banner-sec .banner-content-inner h1 {
+        margin: 60px 0 0;font-size: 25px;
+      }
+      .banner-content {
+        text-align: center;
+      }
+      .banner-sec .banner-content-inner p {
+        font-size: 14px;
+      }
+      .banner-sec .banner-content-inner .btn {
+        padding: 9px 19px;
+        font-size: 13px;
+      }
+      .meet-your-winner {
+        padding: 26px 0;
+      }
+
+      .what-client-say .slider-inner {
+        background-image: unset;
+        background-color: #011b31;
+        width: 100%;
+        height: 346px;
+      }
+
+      .design-text {
+        text-align: left;
+        font-size: 12px;
+    }
+}
+
+
